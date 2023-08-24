@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-gray-800 to-gray-700"
+      className="h-screen w-full bg-gradient-to-b from-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row gap-2">
 
@@ -35,7 +35,7 @@ const Home = () => {
         {/* image container */}
         <div>
             <img src={HeroImage} alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-tr-2xl rounded-br-2xl rounded-bl-2xl mx-auto w-2/3 border-r-[6px] border-b-[6px] border-white-500 md:w-full"
             />
         </div>
       </div>
