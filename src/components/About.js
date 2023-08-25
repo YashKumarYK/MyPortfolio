@@ -4,33 +4,27 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen sm:h-full py-5 bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen">
+        <div className="pb-7 ">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl">
+        I am an undergraduate with a strong passion for software development and a keen interest in the exciting world of machine learning. 🚀
+
+        💻 Proficient in C/C++ and Python, I have honed my programming skills to deliver efficient and innovative solutions. Through diverse projects, I have gained valuable insights into the art of crafting clean and understandable code.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        🧠 As an avid problem solver, I actively engage in sharpening my analytical thinking and algorithmic prowess. I consistently tackle challenging Data Structures and Algorithms problems on various coding platforms.
+
+🌐 My thirst for knowledge extends to the dynamic domain of web development. I am currently immersed in the world of web technologies, learning and expanding my skill set to create captivating web experiences.
         </p>
       </div>
     </div>

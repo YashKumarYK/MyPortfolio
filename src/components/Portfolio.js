@@ -41,14 +41,14 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         {/* Heading */}
-        <div className="pb-8">
+        <div className="pt-6 mt-20">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
           <p className="py-6">Check out my projects that I have done</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 sm:px-0">
           {/* image card */}
 
           {portfolios.map(({ id, src }) => (
