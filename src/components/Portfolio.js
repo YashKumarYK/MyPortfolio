@@ -11,26 +11,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: shopsee,
+      demoLink:"https://yashkumaryk.github.io/shopsee.github.io/",
+      codeLink:'https://github.com/YashKumarYK/shopsee.github.io'
     },
     {
       id: 2,
       src: nQueens,
+      demoLink:'https://yashkumaryk.github.io/N-Queen-Visualizer/',
+      codeLink:'https://github.com/YashKumarYK/N-Queen-Visualizer'
     },
     {
       id: 3,
       src: weatherApp,
+      demoLink:'https://yashkumaryk.github.io/WeatherApp/',
+      codeLink:'https://github.com/YashKumarYK/WeatherApp'
     },
     {
       id: 4,
       src: passwordGenerator,
+      demoLink:'https://yashkumaryk.github.io/PasswordGenerator/',
+      codeLink:'https://github.com/YashKumarYK/PasswordGenerator'
     },
     {
       id: 5,
       src: excelClone,
+      demoLink:'https://yashkumaryk.github.io/MyExcel/',
+      codeLink:'https://github.com/YashKumarYK/MyExcel'
     },
     {
       id: 6,
       src: tictactoe,
+      demoLink:'https://yashkumaryk.github.io/TicTacToe/',
+      codeLink:'https://github.com/YashKumarYK/TicTacToe'
     },
   ];
 
@@ -51,7 +63,7 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 sm:px-0">
           {/* image card */}
 
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,codeLink, demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -60,12 +72,16 @@ const Portfolio = () => {
               />
               {/* card button */}
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a href={demoLink}>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+                <a href={codeLink}>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
