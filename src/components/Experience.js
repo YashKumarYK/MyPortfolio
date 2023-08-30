@@ -26,7 +26,7 @@ const Experience = () => {
         <div className='max-w-screen-lg mx-auto  flex flex-col justify-center w-full h-full text-white'>
             <div className='my-20 pt-2'>
                 <p className='text-4xl font-bold border-b-4 border-gray-500  p-2 mx-2 inline'>Experience</p>
-                <p className='py-6 pl-5'>This my internships i have done</p>
+                {/* <p className='py-6 pl-5'>This my internships i have done</p> */}
             </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-8 pb-4 text-center px-8 sm:px-0 '>
                 {/* card */}
